@@ -1,0 +1,5 @@
+<launch>
+  <node name="talker_node" pkg="wheels_robot" type="talker.py" output="screen"/>
+  <node name="listener_node" pkg="wheels_robot" type="listener.py" output="screen"/>
+</launch>
+
